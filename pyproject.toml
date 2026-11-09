@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grafana-tools"
+version = "1.0.0"
+dependencies = [
+    "requests",
+    "python-dotenv"
+]
+
+[project.scripts]
+grafana-cli = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+packages = ["client_utility","liveness","tomcat_memory"]
+
