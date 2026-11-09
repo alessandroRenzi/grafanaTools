@@ -1,5 +1,5 @@
 # ================================================================
-# CLIENT INTERAZIONE CON GRAFANA
+# CLIENT INTERAZIONE CON GRAFANA - ALERT
 # ================================================================
 import requests
 import os
